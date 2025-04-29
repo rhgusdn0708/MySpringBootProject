@@ -5,5 +5,7 @@
 |  |   |  |  \   '  |  '--' /' '-' '' '-' '  |  |
 `--'   `--'.-'  /   `------'  `---'  `---'   `--'
            `---'
-SpringBoot App Info :: ${spring-boot.version} / ${application.version}
+Application Info :: ${spring-boot.title} / ${application.version}
+Powered by Spring Boot ${spring-boot.version}
+
 
