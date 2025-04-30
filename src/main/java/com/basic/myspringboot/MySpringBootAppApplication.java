@@ -1,4 +1,4 @@
-package com.basic.myspringbootapp;
+package com.basic.myspringboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.WebApplicationType;
@@ -11,7 +11,7 @@ public class MySpringBootAppApplication {
 	public static void main(String[] args) {
 		//SpringApplication.run(MySpringBootAppApplication.class, args);
 		SpringApplication application = new SpringApplication(MySpringBootAppApplication.class);
-		//기본적으로 WebApplicationType 은 웹 어플리케이션이다.
+		//기본적으로 WebApplicationType 은 웹어플리케이션 이다.
 		application.setWebApplicationType(WebApplicationType.SERVLET);
 		application.run(args);
 	}
